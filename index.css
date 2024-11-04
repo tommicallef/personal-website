@@ -67,7 +67,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    opacity: 50%;
     transition: 0.2s;
 }
 
@@ -105,4 +105,33 @@ a:hover {
 .book-author {
     margin-top: 0;
     font-size: 13px;
+}
+
+.project-title {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.project-links {
+    margin: none;
+}
+
+.project-links a {
+    text-decoration: none;
+}
+
+.demo {
+    color: red;
+}
+
+.repo {
+    color: rgb(33, 98, 196);
+}
+
+.project p {
+    margin-bottom: 7px;
+}
+
+.project {
+    margin-bottom: 50px;
 }
